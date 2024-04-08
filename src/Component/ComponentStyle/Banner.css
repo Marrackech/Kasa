@@ -1,0 +1,52 @@
+.Banner {
+  position: relative;
+  max-width: 100%;
+  margin: 0 2rem;
+  min-height: 140px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 2rem;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-family: "roboto", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.Banner::after {
+  position: absolute;
+  opacity: 0.9;
+  background-image: url("../../../logo/banner.png");
+  filter: brightness(60%);
+  background-position: center;
+  background-size: cover;
+  content: "";
+  inset: 0;
+  border-radius: 2rem;
+  z-index: 0;
+}
+
+.Banner span {
+  position: relative;
+  z-index: 1;
+  font-weight: bolder;
+  margin-top: 0px;
+  word-break: break-word;
+}
+
+@media screen and (max-width: 600px) {
+  .Banner {
+    max-width: 110%;
+  }
+  .Banner h2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Banner {
+    width: 95%;
+  }
+}/*# sourceMappingURL=Banner.css.map */

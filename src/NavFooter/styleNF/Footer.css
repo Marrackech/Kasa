@@ -1,0 +1,42 @@
+.Footer {
+  background-color: rgb(0, 0, 0);
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.Footer img {
+  width: 7%;
+  height: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  .Footer {
+    min-height: 20vh;
+  }
+  .Footer p {
+    display: flex;
+    flex-direction: column;
+  }
+  .Footer img {
+    width: 44%;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Footer {
+    min-height: 20vh;
+    width: 112%;
+  }
+  .Footer p {
+    display: flex;
+    flex-direction: column;
+  }
+  .Footer img {
+    width: 44%;
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=Footer.css.map */

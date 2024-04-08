@@ -1,0 +1,5 @@
+@charset "UTF-8";
+.fa-chevron-up.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease; /* Vous pouvez ajuster la durée de transition selon vos préférences */
+}/*# sourceMappingURL=AppartementDescriptioon.css.map */

@@ -1,0 +1,52 @@
+.About__description {
+  font-family: "Roboto", sans-serif;
+}
+.About__description .description {
+  margin-inline: 7em;
+  margin-block: 1.2em;
+}
+
+.About__img .Baner img {
+  height: 223px;
+  width: 96%;
+  margin: 0 2em;
+  border-radius: 20px;
+  opacity: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .About__description .description {
+    width: 92%;
+    margin: 1.5em 1em;
+    margin-bottom: 2rem;
+  }
+  img {
+    height: 223px;
+    width: 9px;
+  }
+  .About__img .Baner {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+  }
+  .About__img .Baner img {
+    width: 93%;
+    margin: 0em 1em;
+  }
+}
+@media only screen and (max-width: 365px) {
+  .About__description .description {
+    width: 92%;
+    margin: 1.5em 2em;
+    margin-bottom: 2rem;
+  }
+  .About__img .Baner {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+  }
+  .About__img .Baner img {
+    width: 93%;
+    margin: 0em 2em;
+  }
+}/*# sourceMappingURL=AboutPage.css.map */

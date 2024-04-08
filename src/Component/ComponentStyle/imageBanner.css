@@ -1,0 +1,93 @@
+img {
+  margin-inline: 0.3rem;
+  position: relative;
+  width: 100%;
+  height: 395px;
+  border-radius: 20px;
+}
+
+.banner {
+  margin-bottom: 2rem;
+  position: relative;
+}
+.banner .numero {
+  position: absolute;
+  top: 90%;
+  right: 50%;
+  font-size: larger;
+  color: white;
+}
+.banner .btn-next {
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  background-color: transparent;
+  width: 5rem;
+  border: none;
+}
+.banner .btn-next .fa-chevron-left {
+  color: white;
+  font-size: xx-large;
+}
+.banner .btn-back {
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: 0;
+  width: 5rem;
+  background-color: transparent;
+  border: none;
+}
+.banner .btn-back .fa-chevron-right {
+  color: white;
+  font-size: xx-large;
+}
+.banner .container {
+  position: relative;
+  width: 100%;
+  height: 20rem;
+}
+.banner .container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.banner .container img.show {
+  opacity: 1;
+}
+
+.Badge img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: rgb(196, 196, 196);
+  margin-top: 20%;
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 680px) {
+  .Badge {
+    width: 70%;
+  }
+  .Badge img {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: rgb(196, 196, 196);
+    margin-top: 5%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  img {
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+  }
+}/*# sourceMappingURL=imageBanner.css.map */
